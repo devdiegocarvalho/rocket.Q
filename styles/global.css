@@ -24,6 +24,7 @@ html {
 }
 
 body {
+    display: flex;
     height: 100vh;
     background: var(--background);
 }
@@ -88,11 +89,6 @@ button.outlined,
     background: var(--white);
     color: var(--blue);
     border: .2rem solid var(--blue);
-}
-
-input, button, .button {
-    width: 100%;
-    margin-bottom: 1.8rem;
 }
 
 .content header {
