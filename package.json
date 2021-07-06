@@ -1,0 +1,27 @@
+{
+  "name": "rocketq",
+  "version": "1.0.0",
+  "description": "Projeto desevolvido para gerenciar perguntas anônimas de usuários direcionados ao dono da página.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devdiegocarvalho/rocket.Q.git"
+  },
+  "keywords": [],
+  "author": "Diego Carvalho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devdiegocarvalho/rocket.Q/issues"
+  },
+  "homepage": "https://github.com/devdiegocarvalho/rocket.Q#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
+}
